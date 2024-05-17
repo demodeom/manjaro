@@ -10,5 +10,5 @@ git add .
 git commit -m 'update'
 git branch -M gh-pages
 git remote add origin git@github.com:demodeom/manjaro.git
-git push -u origin gh-pages
+git push -u origin gh-pages -f
 rm -rf ./_book
